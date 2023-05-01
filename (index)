@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>AltayMeet — видеочат для онлайн общения</title>
+	<meta name="description" content="AltayMeet - онлайн сервис для случайных знакомств и общения русскоязычных пользователей интернета. AltayMeet предоставляет вам возможность общения через видеочат в сети интернет.">
+	<meta name="keywords" content="altaymeet, видеочат, altay">
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet/less" type="text/css" href="css/common.css" />	
+	<link rel="shortcut icon" href="favicon.ico" />
+	<script src="lib/less.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+    <script src="js/config.js"></script>
+	<meta name="yandex-verification" content="d458f0d5d35ab1cf" />
+    <link type="image/vnd.microsoft.icon" href="favicon.ico" rel="icon" />
+	<link type="image/x-icon" href="favicon.ico" rel="icon" />
+	<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+<meta property="og:title" content="altaymeet.github.io" />
+<meta property="og:url" content="https://altaymeet.github.io/" />
+<meta property="og:image" content="https://chatruletka.net/img/logo_100x100.png" />
+<meta property="og:site_name" content="Русский видеочат" />
+<meta property="og:description" content="Регистрация не нужна." />
+
+</head>
+<body>
+	<div id="loading">
+		<div><img src="img/logo.png" title="AltayMeet"></div><br />
+		<img src="img/preloader.gif" />
+	</div>
+	<table class="app" cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td colspan="6" class="header">
+					<a rel="home" href="/"><img src="img/logo.png" ></a>
+					
+				</td>				
+			</tr>
+
+			<tr>
+				<td id="cmtBox2-td">
+					<div class="cont-video clearfix"><div id="cmtBox2"></div></div>
+				</td>
+						
+				<td id="cmtMess-td" rowspan="2">
+				
+				
+				
+		
+				
+				
+
+					<div id="cmtMess"></div>					
+					
+					
+					
+					
+					
+				</td>
+			</tr>
+			<tr>
+				<td id="cmtBox1-td">
+					<div class="cont-video clearfix"><div id="cmtBox1"></div></div>
+				</td>
+			</tr>
+			<tr>
+				<td id="cmtControl-td">
+					<div class="cont-video clearfix">
+						<div id="cmtControl">
+							<span class="inprogress"><i><img src="img/preloader.gif"></i></span>
+							<button id="cmtStart">Старт</button>
+							<button id="cmtNext">Далее</button>
+							<button id="cmtStop">Стоп</button>
+						</div>
+						
+						
+						
+						
+						
+					</div>
+				</td>
+				<td id="messBox-td">
+					<input placeholder="Введите сюда текст сообщения и нажмите Enter" maxlength="755" id="cmtMsg" />
+				</td>
+			</tr>
+			<tr>			
+				
+			</tr>
+		</tbody>
+	</table>
+	<div class="c">
+	<script type="text/javascript" src="//yandex.st/share/share.js"	charset="utf-8"></script>
+					<div class="yashare-auto-init social-likes social-likes_visible social-likes_ready" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
+
+	</div>
+</body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(33460963, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/33460963" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</html>
